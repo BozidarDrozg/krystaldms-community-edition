@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project name="Primeleaf Product" default="clean" basedir=".">
 	<property name="sourcedir" value="${basedir}/src" />
-	<property name="targetdir" value="D:\Product Installers\\2018\\Community Edition\\Setup Sources" />
+	<property name="targetdir" value="C:/Users/bdroz/git/KrystalDMS" />
 	<property name="libdir" value="${basedir}/lib/common" />
 	<property name="serverlibdir" value="${basedir}/lib" />
 	<property name="basename"   value="dmsserver.jar" />
