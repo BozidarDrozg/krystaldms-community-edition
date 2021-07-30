@@ -58,7 +58,7 @@ public class HTTPConstants {
 	public static final String ALPHA_REGEXP = "^[A-Za-z0-9_ ]+$";
 	public static final String ALPHA_NUMERIC_REGEXP = "^[A-Za-z0-9-_ ,.~\\/\\[\\]\\(\\){}\\\\!:*\\r\\n]+$";
 	public static final String NUMERIC_REGEXP = "^[+-]?(?:\\d+\\.?\\d*|\\d*\\.\\d+)$";
-	public static final String PASSWORD_PATTERN_REGEXP = "((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{8,50})";
+	public static final String PASSWORD_PATTERN_REGEXP = "^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^\\w\\d\\s:])([^\\s]){8,50}$";
 	public static final String IP_PATTERN_REGEXP = "^(25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[0-9]{2}|[0-9])(.(25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[0-9]{2}|[0-9])){3}$";
 	public static final String TIME_PATTERN_REGEXP = "^(([0-1]?[0-9])|([2][0-3])):([0-5]?[0-9])(:([0-5]?[0-9]))?$";
 
